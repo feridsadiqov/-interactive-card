@@ -1,0 +1,156 @@
+body{
+    background-image: url(./bg-main-desktop.png);
+    background-repeat: no-repeat;
+}
+.container{
+    width: 300px;
+    height: 120px;
+    border: 1px solid rgb(179, 181, 162);
+    padding: 40px;
+    /*margin: 0px;*/
+    border-radius: 10px;
+    background-image: url(./bg-card-front.png);
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+.number{
+    position: absolute;
+    left: 30px;
+    top: 95px;
+
+    
+}
+.felica{
+    position: absolute;
+    left: 30px;
+    top: 150px;
+}
+.dt{
+    position: absolute;
+    left: 320px;
+    top: 152px;
+}
+.logo{
+    position: absolute;
+    width: 84px;
+    height: 47px;
+}
+
+.container-2{width: 300px;
+    height: 120px;
+    border: 1px solid rgb(179, 181, 162);
+    padding: 40px;
+    /*margin: 0px;*/
+    border-radius: 10px;
+    background-image: url(./bg-card-back.png);
+    position: absolute;
+    left: 300px;
+    top: 380px;
+    background-size: contain
+    ;
+}
+.cvv{
+    position: absolute;
+    left: 290px;
+    top: 68px;
+}
+.p{
+    position: absolute;
+    right: 378px;
+    top: 210px;
+    font-size: 13px;
+    
+
+}
+
+.input-1{
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    position: absolute;
+    right: 250px;
+    top: 240px;
+    
+}
+.p-2{ position: absolute;
+    right: 413px;
+    top: 268px;
+    font-size: 13px;
+}
+.input-2{
+    position: absolute;
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    right: 250px;
+    top: 300px;
+    
+}
+.p-3{
+    position: absolute;
+    right: 357px;
+    top: 320px;
+    font-size: 13px;
+}
+
+
+main{margin: 5% auto;
+    width: 70%;
+    display: flex;
+}
+.left, .right{ flex: 1 ;
+
+   
+    height: 50vh;
+}
+.d1{position: absolute;
+    right: 370px;
+    top: 370px;
+    padding: 20px; 
+}
+.MM{
+    width: 35px;
+    height: 25px;
+    border-radius: 4px;
+}
+.d2{
+    position: absolute;
+    right: 390px;
+    top: 412px;
+    padding: 20px;
+}
+.YY{
+    width: 35px;
+    height: 25px;
+    border-radius: 4px;
+}
+.EXP{
+    font-size: 8px;
+    color: rgb(76, 77, 78);
+}
+.d3{
+    position: absolute;
+    right: 225px;
+    top: 370px;
+    padding: 20px;
+}
+.eg{ width: 135px;
+    height: 25px;
+    border-radius: 4px;
+}
+ .cv{
+ color: rgb(87, 88, 90);
+ font-size: 13px;
+ margin-left: 10px;
+ }
+ button{ position: absolute;
+    top: 500px;
+    right: 250px;
+    width: 260px;
+    height: 45px;
+    background-color: rgb(71, 13, 110);
+    border-radius: 7px;
+ }
+
+
